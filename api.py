@@ -19,7 +19,8 @@ import numpy as np
 import google.generativeai as genai
 ultimo_alumno_id = None
 # --- Configuración ---
-MODEL_NAME = 'paraphrase-multilingual-mpnet-base-v2'
+#MODEL_NAME = 'paraphrase-multilingual-mpnet-base-v2'
+MODEL_NAME = 'all-MiniLM-L6-v2'
 MONGO_CONNECTION_STRING = "mongodb+srv://erick_user:SNhfMbL2ekm7FKTV@tecnoburro.wzl0haz.mongodb.net/?appName=TecnoBurro"
 DATABASE_NAME = "Base_Conocimiento"
 COLLECTION_NAME = "reglamentos_embeddings_v3"
